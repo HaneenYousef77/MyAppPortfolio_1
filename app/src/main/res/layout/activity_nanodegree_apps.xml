@@ -1,0 +1,48 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center_horizontal"
+    >
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/nano_degree_text"
+        android:id="@+id/textView"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"/>
+
+    <Button
+        style="@style/NanoDegreeButton"
+        android:text="@string/spotify_streamer"
+        android:id="@+id/spotify_streamer" />
+
+    <Button
+        style="@style/NanoDegreeButton"
+        android:text="@string/scores_app"
+        android:id="@+id/scores_app" />
+
+    <Button
+        style="@style/NanoDegreeButton"
+        android:text="@string/library_app"
+        android:id="@+id/library_app" />
+
+    <Button
+        style="@style/NanoDegreeButton"
+        android:text="@string/build_it_bigger"
+        android:id="@+id/build_it_bigger" />
+
+    <Button
+        style="@style/NanoDegreeButton"
+        android:text="@string/xyz_reader"
+        android:id="@+id/xyz_reader"/>
+
+    <Button
+        style="@style/MyApp"
+        android:text="@string/capstone"
+        android:id="@+id/capstone" />
+</LinearLayout>
